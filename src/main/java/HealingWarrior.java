@@ -2,8 +2,8 @@ public class HealingWarrior extends Player{
 
     private String location;
 
-    public HealingWarrior(int health, String tool, String location) {
-        super(health, tool);
+    public HealingWarrior(int health, String location) {
+        super(health);
         this.location = location;
     }
 }

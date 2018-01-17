@@ -1,10 +1,16 @@
 public class Weapon {
 
-    private String name;
-    private int power;
+    private WeaponType weaponType;;
 
-    public Weapon(String name, int power){
-        this.name = name;
-        this.power = power;
+    public Weapon(WeaponType weaponType){
+        this.weaponType = weaponType;
+    }
+
+    public WeaponType getWeaponType(){
+        return this.weaponType;
+    }
+
+    public int getWeaponTypeValue() {
+        return this.weaponType.getValue();
     }
 }

@@ -1,12 +1,10 @@
 public abstract class Player {
 
     private int health;
-    private String tool;
 
 
-    public Player(int health, String tool){
+    public Player(int health){
         this.health = health;
-        this.tool = tool;
     }
 
     public String hasTool(String toolName){
@@ -16,7 +14,6 @@ public abstract class Player {
     public int getHealth(){
         return this.health;
     }
-
 
 
 

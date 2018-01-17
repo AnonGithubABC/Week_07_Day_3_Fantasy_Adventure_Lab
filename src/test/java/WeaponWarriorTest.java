@@ -11,9 +11,9 @@ public class WeaponWarriorTest {
 
     @Before
     public void before(){
-        dwarf = new Dwarf(100, "weapon", "Edinburgh", "Sword");
-        barbarian = new Barbarian(100, "weapon", "Edinburgh", "Axe");
-        knight = new Knight(100, "weapon", "Edinburgh", "Club");
+        dwarf = new Dwarf(100,"Edinburgh", "Sword");
+        barbarian = new Barbarian(100,"Edinburgh", "Axe");
+        knight = new Knight(100,"Edinburgh", "Club");
     }
 
     @Test
@@ -25,5 +25,11 @@ public class WeaponWarriorTest {
     public void dwarfCanFight(){
         assertEquals("I'm in Edinburgh and i fight with a Sword", dwarf.fight());
     }
+
+//    @Test
+//    public void dwarfHealthReducesWhenAttacked(){
+//        Weapon weapon = new Weapon()
+//        assertEquals(80, dwarf.getAttacked());
+//    }
 
 }
