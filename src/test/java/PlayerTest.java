@@ -11,9 +11,9 @@ public class PlayerTest {
 
     @Before
     public void before(){
-        weaponWarrior = new WeaponWarrior(100, "healing", "Edinburgh");
-        spellWarrior = new SpellWarrior(100, "spell", "Edinburgh");
-        healingWarrior = new HealingWarrior(100, "weapon", "Edinburgh");
+//        weaponWarrior = new WeaponWarrior(100, "healing", "Edinburgh");
+//        spellWarrior = new SpellWarrior(100, "spell", "Edinburgh");
+//        healingWarrior = new HealingWarrior(100, "weapon", "Edinburgh");
     }
 
     @Test
