@@ -1,6 +1,6 @@
 public class Weapon {
 
-    private WeaponType weaponType;;
+    protected WeaponType weaponType;;
 
     public Weapon(WeaponType weaponType){
         this.weaponType = weaponType;

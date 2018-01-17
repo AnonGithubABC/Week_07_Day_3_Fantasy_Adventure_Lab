@@ -1,6 +1,6 @@
 public abstract class Player {
 
-    private int health;
+    protected int health;
 
 
     public Player(int health){
